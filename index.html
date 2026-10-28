@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5e1e2">
+  <meta name="description" content="A tiny dose of humor for a very full day. Pick your crisis. We've got you. By Emma’s Little Things.">
+  <title>Emma’s Emotional Emergency Center</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="masthead"><span class="brand">emma’s</span><span class="brand-sub">EMOTIONAL<br>EMERGENCY CENTER</span></header>
+    <div class="open-note"><span aria-hidden="true">✳</span> SMALL CRISIS. BIG MUG ENERGY.</div>
+    <section id="emergencies" aria-labelledby="main-title">
+      <h1 id="main-title">What's your<br><em>emergency?</em></h1>
+      <p class="intro">Pick your crisis. We've got you.</p>
+      <div class="choices">
+        <button data-category="work"><span class="symbol" aria-hidden="true">↗</span><span>Work is testing me</span><span class="arrow" aria-hidden="true">→</span></button>
+        <button data-category="people"><span class="symbol" aria-hidden="true">✳</span><span>People are exhausting</span><span class="arrow" aria-hidden="true">→</span></button>
+        <button data-category="love"><span class="symbol" aria-hidden="true">♡</span><span>Love life disaster</span><span class="arrow" aria-hidden="true">→</span></button>
+        <button data-category="everything"><span class="symbol" aria-hidden="true">≈</span><span>Literally everything</span><span class="arrow" aria-hidden="true">→</span></button>
+      </div>
+      <p class="aside">A little sip. A little perspective.</p>
+    </section>
+    <section id="fix" aria-labelledby="fix-title" hidden>
+      <p class="eyebrow" id="category-label"></p>
+      <h1 id="fix-title" class="fix-title">Okay, <em>we've got you.</em></h1>
+      <div class="response-card"><span class="card-star" aria-hidden="true">✳</span><p class="card-label">YOUR EMERGENCY FIX</p><p id="response" role="status" aria-live="polite" aria-atomic="true"></p><span class="card-heart" aria-hidden="true">♡</span></div>
+      <button id="another" class="primary">Another emergency fix <span aria-hidden="true">↻</span></button>
+      <button id="back" class="back"><span aria-hidden="true">←</span> Back to emergencies</button>
+    </section>
+    <noscript><p class="noscript">Please turn on JavaScript to pick your emergency. Until then: your to-do list is not the boss of your whole personality.</p></noscript>
+    <footer><span class="footer-mark" aria-hidden="true">♡</span><p>Emma’s Little Things</p><small>Just for laughs. Made for your everyday.</small></footer>
+  </main>
+</body>
+</html>
